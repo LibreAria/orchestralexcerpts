@@ -1,0 +1,189 @@
+/* CMU Serif Fonts */
+@font-face {
+  font-family: 'Computer Modern Serif';
+  src: url('fonts/cmunti.eot');
+  src: url('fonts/cmunrm.eot?#iefix') format('embedded-opentype'),
+      url('fonts/cmunrm.woff') format('woff'),
+      url('fonts/cmunrm.ttf') format('truetype'),
+      url('fonts/cmunrm.svg#cmunrm') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  }
+
+
+  @font-face {
+  font-family: 'Computer Modern Serif';
+  src: url('fonts/cmunbx.eot');
+  src: url('fonts/cmunbx.eot?#iefix') format('embedded-opentype'),
+      url('fonts/cmunbx.woff') format('woff'),
+      url('fonts/cmunbx.ttf') format('truetype'),
+      url('fonts/cmunbx.svg#cmunbx') format('svg');
+  font-weight: bold;
+  font-style: normal;
+  }
+
+
+  @font-face {
+  font-family: 'Computer Modern Serif';
+  src: url('fonts/cmunti.eot');
+  src: url('fonts/cmunti.eot?#iefix') format('embedded-opentype'),
+      url('fonts/cmunti.woff') format('woff'),
+      url('fonts/cmunti.ttf') format('truetype'),
+      url('fonts/cmunti.svg#cmunti') format('svg');
+  font-weight: normal;
+  font-style: italic;
+  }
+
+
+  @font-face {
+  font-family: 'Computer Modern Serif';
+  src: url('fonts/cmunbi.eot');
+  src: url('fonts/cmunbi.eot?#iefix') format('embedded-opentype'),
+      url('fonts/cmunbi.woff') format('woff'),
+      url('fonts/cmunbi.ttf') format('truetype'),
+      url('fonts/cmunbi.svg#cmunbi') format('svg');
+  font-weight: bold;
+  font-style: italic;
+  }
+
+
+hr {
+  color: black;
+}
+
+
+body {
+  background-color: white;
+  color: black;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+
+
+
+.nav-link {
+  color: black;
+}
+
+a.nav-link:hover {
+  color: #aaa;
+}
+
+[data-theme="dark"] {
+  background-color: #000 !important;
+  color: #fff;
+}
+
+[data-theme="dark"] hr {
+  color: white;
+}
+
+[data-theme="dark"] a {
+  color: #fff;
+}
+
+[data-theme="dark"] a.dropdown-item {
+  color: white
+}
+
+[data-theme="dark"] .dropdown-menu {
+  background-color: black;
+  border-color: gray;
+}
+
+[data-theme="dark"] .custom-control-label {
+  color: white;
+}
+
+[data-theme="dark"] img {
+  filter: invert();
+}
+
+
+
+
+[data-theme="dark"] .btn-default {
+  color: #fff;
+  background-color: #000;
+  border-color: #fff;
+}
+
+[data-theme="dark"] .btn-outline-dark {
+  color: white;
+  border-color: white;
+}
+
+
+#instrumentdropdown {
+  position:absolute;
+  top: 14px;
+  left: 2vw;
+}
+
+#themetoggle { /* LIGHT/DARK THEME TOGGLE */
+  position: absolute;
+  right: 35px;
+  top: 30px;
+}
+
+body {
+  font-family: 'Computer Modern Serif',serif;
+  font-size: 16px;
+}
+
+
+a:hover {
+  color: #aaa;
+  text-decoration:none;
+}
+.logo {
+  text-align: center;
+  text-decoration: none;
+
+
+}
+
+.nav > li > a {
+  position: relative;
+  display: block;
+  padding: 10px 0.8vw;
+}
+
+
+
+
+
+/** HEADER **/
+
+/* END HEADER */
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+  .logo h1 {
+    font-size: 2.5em;
+  }
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .logo h1 {
+    font-size: 2.3em;
+  }
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  .logo h1 {
+    font-size: 2.2em;
+  }
+}
