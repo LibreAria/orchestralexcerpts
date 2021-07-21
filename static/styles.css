@@ -203,6 +203,9 @@ a:hover {
   .logo h1 {
     font-size: 2.2em;
   }
+  .container {
+    max-width: 90vw;
+  }
   .composer {
     padding-left: 10vw;
    }
