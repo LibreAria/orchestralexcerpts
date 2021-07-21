@@ -179,18 +179,22 @@ a:hover {
   .logo h1 {
     font-size: 2.5em;
   }
-
 }
 
 /********** Medium devices only **********/
 @media (min-width: 992px) and (max-width: 1199px) {
-
+  .container {
+    max-width: 90vw;
+  }
 }
 
 /********** Small devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
   .logo h1 {
     font-size: 2.3em;
+  }
+  .container {
+    max-width: 90vw;
   }
 }
 
