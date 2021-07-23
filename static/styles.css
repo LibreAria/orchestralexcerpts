@@ -47,33 +47,6 @@
   }
 
 
-hr {
-  color: black;
-}
-
-
-body {
-  background-color: white;
-  color: black;
-}
-
-a {
-  color: black;
-  text-decoration: none;
-}
-
-
-ul {
-  list-style-type: none;
-}
-
-.nav-link {
-  color: black;
-}
-
-a.nav-link:hover {
-  color: #aaa;
-}
 
 [data-theme="dark"] {
   background-color: #000 !important;
@@ -128,7 +101,7 @@ a.nav-link:hover {
 
 #themetoggle { /* LIGHT/DARK THEME TOGGLE */
   position: absolute;
-  right: 35px;
+  right: 4vw;
   top: 30px;
 }
 
@@ -137,13 +110,74 @@ a.nav-link:hover {
 }
 
 body {
+  background-color: white;
+  color: black;
   font-family: 'Computer Modern Serif',serif;
   font-size: 16px;
 }
 
+hr {
+  color: black;
+}
+
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+
+ul {
+  list-style-type: none;
+}
+
+.nav-link {
+  color: black;
+}
+
+a.nav-link:hover {
+  color: #aaa;
+}
+
+
 .footer {
   padding: 0px .75vw 0px;
 }
+
+
+/* EXCERPT FORMATTING */
+.titleexcerpt {
+  text-align: center;
+  margin-top: 32px;
+}
+
+.composerexcerpt {
+  text-align: center;
+}
+
+.excerpt {
+  width:100%;
+}
+
+.numberexcerpt {
+  text-align: left;
+}
+
+.excerptbreak {
+  margin-top: 64px;
+  margin-bottom: 64px;
+}
+
+.excerptend {
+  margin-top: 128px;
+  margin-bottom: 128px;
+}
+
+.navbar {
+  padding-top: 0px;
+}
+
+
 
 a:hover {
   color: #aaa;
