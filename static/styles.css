@@ -47,11 +47,23 @@
   }
 
 
-
+/* THEME */
 [data-theme="dark"] {
   background-color: #000 !important;
   color: #fff;
 }
+
+/* OPPOSITE */
+.opposite {
+  background-color: #000;
+  color: #fff;
+}
+[data-theme="dark"] .opposite {
+  background-color: #fff;
+  color: #000;
+}
+
+
 
 [data-theme="dark"] hr {
   color: white;
