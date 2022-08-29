@@ -152,9 +152,13 @@
   padding-left: 16px;
 }
 
-#headerline {
+#headerlineindex {
   margin-top: 0px; 
   margin-bottom: 0px;
+}
+
+#headerline {
+  margin-top: 0px;
 }
 
 #footerline {
