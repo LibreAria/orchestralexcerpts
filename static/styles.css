@@ -104,11 +104,42 @@
   border-color: white;
 }
 
+#titledesktop {
+  margin-top: 15px;
+  text-decoration:none;
+}
+
+#titlemobile {
+  text-decoration:none; 
+  text-align: center;
+  margin-top: 8px;
+  
+}
+
+#containermobile {
+  width:150px;
+}
 
 #instrumentdropdown {
   position:absolute;
   top: 14px;
   left: 2vw;
+  width:10%;
+}
+
+#navmobile {
+  width: 100%; 
+  display: Flex; 
+  align-items: center; 
+  justify-content: center;
+}
+
+#footernav {
+  width: 100%;
+  display: Flex; 
+  align-items: center; 
+  justify-content: center;
+  padding-bottom: 16px;
 }
 
 #themetoggle { /* LIGHT/DARK THEME TOGGLE */
@@ -117,8 +148,25 @@
   top: 30px;
 }
 
+#togglemobile {
+  padding-left: 16px;
+}
+
+#headerline {
+  margin-top: 0px; 
+  margin-bottom: 0px;
+}
+
+#footerline {
+  margin-top: 0px;
+}
+
 #list {
   padding-left: 10vw;
+}
+
+#maincontainer {
+  margin: 0 0 0 0;
 }
 
 body {
