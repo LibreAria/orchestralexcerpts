@@ -26,8 +26,8 @@
 <body>
 
 
-<div class="logo d-none d-sm-block"><h1 style="margin-top: 15px;"><a href="../../index.html" style="text-decoration:none;">Orchestral Excerpts</a></h1></div>
-<div class="logo d-block d-sm-none"> <div class="container" style="width:150px;"> <h4 style="margin-top: 8px;"><a href="../../index.html" style="text-decoration:none; text-align: center;">Orchestral Excerpts</a></h4> </div> </div>
+<div id="titledesktop" class="logo d-none d-sm-block"><h1><a href="../../index.html">Orchestral Excerpts</a></h1></div>
+<div id="titlemobile" class="logo d-block d-sm-none"> <div id="containermobile" class="container"> <h4><a href="../../index.html">Orchestral Excerpts</a></h4> </div> </div>
 
 <div id="themetoggle" class="form-check form-switch d-none d-lg-block">
   <input type="checkbox" class="form-check-input" id="darkSwitch" />
@@ -36,27 +36,27 @@
 <script src="../../js/dark-mode-switch.min.js"></script>
 
 
-<div id="instrumentdropdown" class="dropdown d-lg-none" style="width:10%;">
+<div id="instrumentdropdown" class="dropdown d-lg-none">
   <button class="btn btn-outline-dark" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
     <img src="../../static/fonts/list.svg" alt="Bootstrap" width="25" height="25">
   </button>
   <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-    <li><a class="dropdown-item" href="../violin.html">Violin</a></li>
-    <li><a class="dropdown-item" href="../viola.html">Viola</a></li>
-    <li><a class="dropdown-item" href="../cello.html">Cello</a></li>
-    <li><a class="dropdown-item" href="../doublebass.html">Double Bass</a></li>
-    <li><a class="dropdown-item" href="../flute.html">Flute</a></li>
-    <li><a class="dropdown-item" href="../oboe.html">Oboe</a></li>
-    <li><a class="dropdown-item" href="../clarinet.html">Clarinet</a></li>
-    <li><a class="dropdown-item" href="../bassclarinet.html">Bass Clarinet</a></li>
-    <li><a class="dropdown-item" href="../bassoon.html">Bassoon</a></li>
-    <li><a class="dropdown-item" href="../trumpet.html">Trumpet</a></li>
-    <li><a class="dropdown-item" href="../horn.html">Horn</a></li>
-    <li><a class="dropdown-item" href="../trombone.html">Trombone</a></li>
-    <li><a class="dropdown-item" href="../tuba.html">Tuba</a></li>
+    <li><a class="dropdown-item" href="../../instruments/violin.html">Violin</a></li>
+    <li><a class="dropdown-item" href="../../instruments/viola.html">Viola</a></li>
+    <li><a class="dropdown-item" href="../../instruments/cello.html">Cello</a></li>
+    <li><a class="dropdown-item" href="../../instruments/doublebass.html">Double Bass</a></li>
+    <li><a class="dropdown-item" href="../../instruments/flute.html">Flute</a></li>
+    <li><a class="dropdown-item" href="../../instruments/oboe.html">Oboe</a></li>
+    <li><a class="dropdown-item" href="../../instruments/clarinet.html">Clarinet</a></li>
+    <li><a class="dropdown-item" href="../../instruments/bassclarinet.html">Bass Clarinet</a></li>
+    <li><a class="dropdown-item" href="../../instruments/bassoon.html">Bassoon</a></li>
+    <li><a class="dropdown-item" href="../../instruments/trumpet.html">Trumpet</a></li>
+    <li><a class="dropdown-item" href="../../instruments/horn.html">Horn</a></li>
+    <li><a class="dropdown-item" href="../../instruments/trombone.html">Trombone</a></li>
+    <li><a class="dropdown-item" href="../../instruments/tuba.html">Tuba</a></li>
     <li><hr class="dropdown-divider"></li>
     <li>
-      <div class="form-check form-switch" style="padding-left: 16px;">
+      <div id="togglemobile" class="form-check form-switch">
         <label class="custom-control-label" for="darkSwitch">Toggle Theme</label>
         </div>
         <script src="../../js/dark-mode-switch.min.js"></script>
@@ -65,20 +65,20 @@
 </div>
 
 <nav class="navbar navbar-expand-lg d-none d-lg-block justify-content-center">
-  <ul class="navbar-nav" style="width: 100%; display: Flex; align-items: center; justify-content: center;">
-    <li class="nav-item"><a class="nav-link" href="../violin.html">Violin</a></li>
-    <li class="nav-item"><a class="nav-link" href="../viola.html">Viola</a></li>
-    <li class="nav-item"><a class="nav-link" href="../cello.html">Cello</a></li>
-    <li class="nav-item"><a class="nav-link" href="../doublebass.html">Double Bass</a></li>
-    <li class="nav-item"><a class="nav-link" href="../flute.html">Flute</a></li>
-    <li class="nav-item"><a class="nav-link" href="../oboe.html">Oboe</a></li>
-    <li class="nav-item"><a class="nav-link" href="../clarinet.html">Clarinet</a></li>
-    <li class="nav-item"><a class="nav-link" href="../bassclarinet.html">Bass Clarinet</a></li>
-    <li class="nav-item"><a class="nav-link" href="../bassoon.html">Bassoon</a></li>
-    <li class="nav-item"><a class="nav-link" href="../trumpet.html">Trumpet</a></li>
-    <li class="nav-item"><a class="nav-link" href="../horn.html">Horn</a></li>
-    <li class="nav-item"><a class="nav-link" href="../trombone.html">Trombone</a></li>
-    <li class="nav-item"><a class="nav-link" href="../tuba.html">Tuba</a></li>
+  <ul id="navmobile" class="navbar-nav">
+    <li class="nav-item"><a class="nav-link" href="../../instruments/violin.html">Violin</a></li>
+    <li class="nav-item"><a class="nav-link" href="../../instruments/viola.html">Viola</a></li>
+    <li class="nav-item"><a class="nav-link" href="../../instruments/cello.html">Cello</a></li>
+    <li class="nav-item"><a class="nav-link" href="../../instruments/doublebass.html">Double Bass</a></li>
+    <li class="nav-item"><a class="nav-link" href="../../instruments/flute.html">Flute</a></li>
+    <li class="nav-item"><a class="nav-link" href="../../instruments/oboe.html">Oboe</a></li>
+    <li class="nav-item"><a class="nav-link" href="../../instruments/clarinet.html">Clarinet</a></li>
+    <li class="nav-item"><a class="nav-link" href="../../instruments/bassclarinet.html">Bass Clarinet</a></li>
+    <li class="nav-item"><a class="nav-link" href="../../instruments/bassoon.html">Bassoon</a></li>
+    <li class="nav-item"><a class="nav-link" href="../../instruments/trumpet.html">Trumpet</a></li>
+    <li class="nav-item"><a class="nav-link" href="../../instruments/horn.html">Horn</a></li>
+    <li class="nav-item"><a class="nav-link" href="../../instruments/trombone.html">Trombone</a></li>
+    <li class="nav-item"><a class="nav-link" href="../../instruments/tuba.html">Tuba</a></li>
 </ul>
 </nav> 
 
@@ -89,7 +89,7 @@
 
 
 
-<hr class="solid" style="margin-top: 0px;">
+<hr id="headerline" class="solid">
 
 <div class="container">
   <div class="row">
@@ -147,16 +147,20 @@
 </div>
 
 
-<hr class=solid>
+<!-- Footer-->
+<hr id="footerline" class=solid>
 <div class="container-fluid">
   <nav class="navbar navbar-expand-sm justify-content-center">
-    <ul class="navbar-nav" style="width: 100%; display: Flex; align-items: center; justify-content: center; padding-bottom: 16px;">
+    <ul id="footernav" class="navbar-nav">
       <li class="footer nav-item"><a class="footer nav-link" href="../../index.html">Orchestral Excerpts ©2022 LibreAria</a></li>
       <li class="footer nav-item"><a class="footer nav-link" href="../../privacypolicy.html">Privacy Policy</a></li>
       <li class="footer nav-item"><a class="footer nav-link" href="../../about.html">About</a></li>
   </ul>
   </nav> 
 </div>
+
+
+
 <script src="../../js/bootstrap.bundle.min.js"></script>
 
 </body>
