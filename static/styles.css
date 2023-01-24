@@ -152,13 +152,10 @@
   padding-left: 16px;
 }
 
-#headerlineindex {
-  margin-top: 0px; 
-  margin-bottom: 0px;
-}
 
 #headerline {
   margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 #footerline {
@@ -210,9 +207,14 @@ a.nav-link:hover {
 
 
 /* EXCERPT FORMATTING */
+
+.instrument {
+  margin-top: 16px;
+}
+
 .titleexcerpt {
   text-align: center;
-  margin-top: 32px;
+  margin-top: 48px;
 }
 
 .composerexcerpt {
